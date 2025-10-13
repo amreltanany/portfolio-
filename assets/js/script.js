@@ -1,5 +1,5 @@
 ﻿'use strict';
-
+document.addEventListener("DOMContentLoaded", () => {
 
 
 // element toggle function
@@ -170,3 +170,4 @@ for (let i = 0; i < navigationLinks.length; i++) {
         activatePage(pageName);
     });
 }
+});
